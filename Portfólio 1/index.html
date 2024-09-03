@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Meu Site</h1>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Santos_Logo.png" alt="Meu Logo" />
+                    </a>
+
+        </header>
+        <main>
+            <section class="home">
+                <h1>Bem-vindo ao Meu Site</h1>
+                <p>Esta é a página inicial do meu site pessoal. Aqui você encontrará informações sobre mim e como entrar em contato.</p>
+            </section>
+        
+            <section class="center-buttons">
+                <a href="sobre.html" class="button">Sobre</a>
+                <a href="contato.html" class="button">Contato</a>
+            </section>
+        
+            <div class="extra-space"></div>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Renan Caetano</p>
+    </footer>
+
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-list').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
